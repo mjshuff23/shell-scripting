@@ -1,0 +1,8 @@
+#!/bin/bash
+
+jobname="job_201312161447_0003"
+jobname_pre=${jobname:0:16}
+jobname_post=${jobname:17}
+
+echo $jobname_pre
+echo $jobname_post
